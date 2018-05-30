@@ -12,7 +12,8 @@ npm install --save dayler-ui
 ```
 
 ### Usage
-[Api with examples](https://ui.dayler.io)
+[API usage with examples](https://ui.dayler.io)
+~It can be unavailable from Russia, cause hosted at [Digital Ocean](http://digitalocean.com) (thanks [https://rkn.gov.ru/](https://rkn.gov.ru))~
 
 ---
 *Made with* :heart: *for [Dayler.io](https://dayler.io)*
