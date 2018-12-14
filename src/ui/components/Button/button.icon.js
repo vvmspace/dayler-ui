@@ -18,7 +18,7 @@ export default class IconButton extends Button {
     }
 
     render() {
-        const { color, icon, title, type, ...props } = this.props;
+        const { color, icon, title, type, hoverText, ...props } = this.props;
         const { ...rippleStyle } = this.state;
 
         return (
@@ -26,6 +26,7 @@ export default class IconButton extends Button {
                 onMouseDown={this.handleMouseDown}
                 type={type}
                 ref={referance => this.button = referance}
+                title={hoverText}
                 {...props}>
                 <div className={styles.ripple} style={rippleStyle}
                     ref={referance => this.ripple = referance}></div>
